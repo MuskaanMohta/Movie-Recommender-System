@@ -13,7 +13,7 @@ base_url="https://image.tmdb.org/t/p/w500/"
 
 movies_dict=pickle.load(open("movies_dictionary.pkl","rb"))
 #similarity=pickle.load(open("similarity.pkl","rb"))
-vectors = joblib.load("vectors.pkl")
+vectors = joblib.load("Vectors.pkl")
 movies=pd.DataFrame(movies_dict)
 
 #function to fetch posters of movies
